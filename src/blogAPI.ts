@@ -9,9 +9,17 @@ export const getAllArticles = async (): Promise<Article[]> => {
     cache: "no-store",
   });
 
+  /**
+   * err
+   */
   if (!res.ok) {
     throw new Error("エラーが発生しました！");
   }
+
+  /**
+   * loading
+   */
+  await new Promise((resolve) => setTimeout(resolve, 1500));
 
   const articles = await res.json();
   return articles;
