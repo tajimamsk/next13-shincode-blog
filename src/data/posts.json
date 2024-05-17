@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "next.js3をudemyで学ぶ",
+      "content": "shincodeさんの教材でnext.js13を学んでいます。",
+      "createdAt": "2024/5/17"
+    },
+    {
+      "id": "edison",
+      "title": "edison",
+      "content": "O M G. you know what i mean?",
+      "createdAt": "2024/5/17"
+    },
+    {
+      "id": "jsonserver ",
+      "title": "json",
+      "content": "json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! json! ",
+      "createdAt": "2024/5/17"
+    },
+    {
+      "id": "a",
+      "title": "i",
+      "content": "u",
+      "createdAt": "2024-05-17T08:19:02.231Z"
+    },
+    {
+      "id": "test",
+      "title": "a",
+      "content": "a",
+      "createdAt": "2024-05-17T08:22:24.822Z"
+    },
+    {
+      "id": "fr",
+      "title": "won",
+      "content": "aa",
+      "createdAt": "2024-05-17T08:29:30.532Z"
+    }
+  ]
+}
