@@ -1,11 +1,9 @@
 import Image from "next/image";
 import ArticleList from "./cmponents/ArticleList";
 import { getAllArticles } from "@/blogAPI";
-import { supabase } from "@/utils/supabaseClient";
 
 export default async function Home() {
   const articles = await getAllArticles();
-  console.log(supabase);
 
   return (
     <div className="md:flex">
