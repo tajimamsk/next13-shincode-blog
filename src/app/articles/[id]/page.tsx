@@ -6,7 +6,7 @@ import DeleteButton from "@/app/cmponents/DeleteButton";
 const Article = async ({ params }: { params: { id: string } }) => {
   const API_URL = process.env.NEXT_PUBLIC_API_URL;
   /** isr */
-  const res = await fetch(`${API_URL}/api/${params.id}`, {
+  const res = await fetch(`${API_URL}/api/blog/${params.id}`, {
     next: { revalidate: 10 },
   });
   const detailArticle = await res.json();
